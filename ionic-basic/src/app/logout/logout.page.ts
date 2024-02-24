@@ -1,20 +1,20 @@
 import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-import { IonicModule } from '@ionic/angular';
+import { AuthService } from '../auth.service';
 
 @Component({
   selector: 'app-logout',
   templateUrl: './logout.page.html',
   styleUrls: ['./logout.page.scss'],
-  standalone: true,
-  imports: [IonicModule, CommonModule, FormsModule]
 })
 export class LogoutPage implements OnInit {
 
-  constructor() { }
+  constructor(private authService: AuthService) { }
 
   ngOnInit() {
+  }
+
+  logout(){
+    this.authService.onLogout();
   }
 
 }

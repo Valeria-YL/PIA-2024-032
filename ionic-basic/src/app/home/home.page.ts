@@ -8,6 +8,7 @@ import { IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular/stan
   standalone: true,
   imports: [IonHeader, IonToolbar, IonTitle, IonContent],
 })
+
 export class HomePage {
   constructor() {}
 }

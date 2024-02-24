@@ -4,18 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { RegisterPageRoutingModule } from './register-routing.module';
+import { LogoutPageRoutingModule } from './logout-routing.module';
 
-import { RegisterPage } from './register.page';
-import { inject, Injectable } from '@angular/core';
+import { LogoutPage } from './logout.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    RegisterPageRoutingModule
+    LogoutPageRoutingModule
   ],
-  declarations: [RegisterPage]
+  declarations: [LogoutPage]
 })
-export class RegisterPageModule {}
+export class LogoutPageModule {}

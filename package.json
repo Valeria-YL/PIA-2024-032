@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@angular/fire": "^17.0.1",
+    "@firebase/app": "^0.9.27",
+    "firebase": "^10.8.0"
+
+  },
+  "devDependencies": {
+    "@angular/cli": "^17.2.0",
+    "firebase-tools": "^13.3.0"
+  }
+}

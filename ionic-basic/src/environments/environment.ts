@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  firebaseConfig: {
+  
+  firebaseConfig : {
     apiKey: "AIzaSyD1y2EMwg8-hINl5ggUGFRAw4xIsCSScZ8",
     authDomain: "pia-apmov24.firebaseapp.com",
     projectId: "pia-apmov24",
